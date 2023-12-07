@@ -22,6 +22,8 @@ def get_team_goldstats(df):
     #at10
     df["blue_goldat10"] = blue_gold_stats[blue_gold_stats.columns[blue_gold_stats.columns.str.contains("at10")]].sum(axis=1)
 
+    df["blue_gold_diffat10"] = df["blue_goldat10"] - df["red_goldat10"]
+
     #at15
     df["blue_goldat15"] = blue_gold_stats[blue_gold_stats.columns[blue_gold_stats.columns.str.contains("at15")]].sum(axis=1)
 
@@ -41,8 +43,37 @@ def get_team_goldstats(df):
     #at10
     df["red_goldat10"] = red_gold_stats[red_gold_stats.columns[red_gold_stats.columns.str.contains("at10")]].sum(axis=1)
 
+
     #at15
     df["red_goldat15"] = red_gold_stats[red_gold_stats.columns[red_gold_stats.columns.str.contains("at15")]].sum(axis=1)
+
+    return df
+
+def get_gold_diff(df):
+
+    """
+    Calcula la diferencia de las diferentes estadísticas de oro y las añade como columnas al DataFrame
+    """
+
+    #diferencia total
+    df["blue_totalgold_diff"] = df["blue_totalgold"] - df["red_totalgold"]
+    df["red_totalgold_diff"] = df["blue_totalgold_diff"]*-1
+
+    #diferencia de oro ganado
+    df["blue_earnedgold_diff"] = df["blue_earnedgold"] - df["red_earnedgold"]
+    df["red_earnedgold_diff"] = df["blue_earnedgold_diff"]*-1
+
+    #diferencia de oro gastado
+    df["blue_spentgold_diff"] = df["blue_spentgolf"] - df["red_spentgold"]
+    df["red_spentgolf_diff"] = df["blue_spentgold_diff"]*-1
+
+    #diferencia de oro a minuto 10
+    df["blue_gold_diffat10"] = df["blue_goldat10"] - df["red_goldat10"]
+    df["red_gold_diffat10"] = df["blue_gold_diffat10"]*-1
+
+    #diferencia de oro a minuto 15
+    df["blue_gold_diffat15"] = df["blue_goldat15"] - df["red_goldat15"]
+    df["red_gold_diffat15"] = df["blue_gold_diffat15"]*-1
 
     return df
 
