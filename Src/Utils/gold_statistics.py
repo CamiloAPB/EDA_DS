@@ -64,8 +64,8 @@ def get_gold_diff(df):
     df["red_earnedgold_diff"] = df["blue_earnedgold_diff"]*-1
 
     #diferencia de oro gastado
-    df["blue_spentgold_diff"] = df["blue_spentgolf"] - df["red_spentgold"]
-    df["red_spentgolf_diff"] = df["blue_spentgold_diff"]*-1
+    df["blue_spentgold_diff"] = df["blue_spentgold"] - df["red_spentgold"]
+    df["red_spentgold_diff"] = df["blue_spentgold_diff"]*-1
 
     #diferencia de oro a minuto 10
     df["blue_gold_diffat10"] = df["blue_goldat10"] - df["red_goldat10"]
