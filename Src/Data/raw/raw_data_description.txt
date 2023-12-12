@@ -1,0 +1,1024 @@
+game_id: unique game identifier.
+
+league: league game belongs
+
+    LDL   LoL development League (China)
+    LPL   LoL Pro League (China)
+    LCK   LoL Championship of Korea 
+    CK    Challengers Korea
+    VCS   Vientam Championship Series
+    PCS   Pacific Challenger Series
+    LCS   LoL Championship Series (North America)
+    LEC   LoL European Championship
+    OPL   Oceania Pro League
+    TCL   Turkish Championship League
+    TRA   Turkish academy league
+    CBLOL Brazil Professional League
+    EM    European Masters
+    LJL   LoL Japanese League
+    LLA   Liga Latino America
+    BRCC  Brazil second division
+    LFL   LoL Frenche League
+    OCS   Oceania Challenger Series
+    MSC   Mid-season cup (China and Korea)
+    Riot  Riot Games Event
+    KesPA Korean eSports Assoation
+
+split: split game was played
+     
+playoffs: indicates if the game is a playoffs match
+
+    0: False
+    1: True
+
+date: date of the game was played
+
+gamelength: duration of the game
+
+patch: patch the game was played on
+
+t1_playerid: name of the team 1
+
+t1_ban1: first champion banned by team 1
+
+t1_ban2: second champion banned by team 1
+
+t1_ban3: third champion banned by team 1
+
+t1_ban4: forth champion banned by team 1
+
+t1_ban5: fifth champion banned by team 1
+
+t1_result: indicates win or loss of team 1
+
+    0: loss
+    1: win
+
+t1_firstblood: indicates if team 1 got the first kill of the game
+
+    0: no
+    1: yes
+
+t1_firstdragon: indicates if team 1 got the first dragon of the game
+
+    0: no
+    1: yes
+
+t1_dragons: number of dragons slayed by team 1 in the game
+
+t1_elementaldrakes : number of elemental drakes slayed by team 1 in the game
+
+t1_infernals: number of infernal dragons slayed by team 1 in the game
+
+t1_mountains: number of mountain dragons slayed by team 1 in the game
+
+t1_clouds: number of cloud dragons slayed by team 1 in the game
+
+t1_oceans: number of ocean dragons slayed by team 1 in the game
+
+t1_elders: number of elder dragons slayed by team 1 in the game
+
+t1_firstherald: indicates if team 1 got the first herald of the game
+
+    0: no
+    1: yes
+
+t1_heralds: number of heralds slayed by team 1 in the game
+
+t1_firstbaron: indicates if team 1 got the first baron of the game
+
+    0: no
+    1: yes
+
+t1_barons: number of barons slayed by team 1 in the game
+
+t1_firstower: indicates if team 1 got the first tower of the game
+
+    0: no
+    1: yes
+
+t1_midtower: indicates if team 1 got the first midlane tower of the game
+
+    0: no
+    1: yes
+
+t1_firstothreetowers: indicates if team 1 got first the three external towers of the game
+
+    0: no
+    1: yes
+
+t1_inhibs: number of inhibitors destruyed by team 1 in the game
+
+t2_playerid: name of the team 2
+
+t2_ban1: first champion banned by team 2
+
+t2_ban2: second champion banned by team 2
+
+t2_ban3: third champion banned by team 2
+
+t2_ban4: forth champion banned by team 2
+
+t2_ban5: fifth champion banned by team 2
+
+t2_result: indicates win or loss of team 2
+
+    0: loss
+    1: win
+
+t2_firstblood: indicates if team 2 got the first kill of the game
+
+    0: no
+    1: yes
+
+t2_firstdragon: indicates if team 2 got the first dragon of the game
+
+    0: no
+    1: yes
+
+t2_dragons: number of dragons slayed by team 2 in the game
+
+t2_elementaldrakes : number of elemental drakes slayed by team 2 in the game
+
+t2_infernals: number of infernal dragons slayed by team 2 in the game
+
+t2_mountains: number of mountain dragons slayed by team 2 in the game
+
+t2_clouds: number of cloud dragons slayed by team 2 in the game
+
+t2_oceans: number of ocean dragons slayed by team 2 in the game
+
+t2_elders: number of elder dragons slayed by team 2 in the game
+
+t2_firstherald: indicates if team 2 got the first herald of the game
+
+    0: no
+    1: yes
+
+t2_heralds: number of heralds slayed by team 2 in the game
+
+t2_firstbaron: indicates if team 2 got the first baron of the game
+
+    0: no
+    1: yes
+
+t2_barons: number of barons slayed by team 2 in the game
+
+t2_firstower: indicates if team 2 got the first tower of the game
+
+    0: no
+    1: yes
+
+t2_midtower: indicates if team 2 got the first midlane tower of the game
+
+    0: no
+    1: yes
+
+t2_firstothreetowers: indicates if team 2 got first the three external towers of the game
+
+    0: no
+    1: yes
+
+t2_inhibs: number of inhibitors destruyed by team 2 in the game
+
+t1p1_position: role of the player 1 of the team 1
+
+    sup: support
+
+t1p1_player: nickname of the player 1 of the team 1
+
+t1p1_team: name of the team of the player 1 of the team 1
+
+t1p1_champion: champion played by the player 1 of the team 1
+
+t1p1_kills: number of kills obtained by the plater 1 of the team 1
+
+t1p1_deaths: number od deaths of the player 1 of the team 1
+
+t1p1_assists: number of assits of the player 1 og the team 1
+
+t1p1_firstblood: indicates if player 1 of the team 1 got the first blood of the game
+
+    0: no
+    1: yes
+
+t1p1_firstbloodkill: indicates if player 1 of the team 1 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t1p1_firstbloodassist: indicates if player 1 of the team 1 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t1p1_firstbloodvictim: indicates if player 1 of the team 1 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t1p1_damagetochampions: damage dealt to champions by the player 1 of the team 1
+
+t1p1_dpm: damage dealt per minute by the player 1 of the team 1
+
+t1p1_wardsplaced: wards placed by the player 1 of the team 1
+
+t1p1_wpm: wards placed per minute by the player 1 of the team 1
+
+t1p1_wardskilled: wards killed by the player 1 of the team 1
+
+t1p1_wcpm: wards killed per minute by the player 1 of the team 1
+
+t1p1_controlwardsbought: control wards bought by the player 1 of the team 1
+
+t1p1_visionscore: visionscore of the player 1 of the team 1
+
+t1p1_vspm: visionscore per minute of the player 1 of the team 1
+
+t1p1_totalgold: total gold of the player 1 of the team 1
+
+t1p1_earnedgold: total gold earned by the player 1 of the team 1
+
+t1p1_earned gpm: gold earned per minute by the player 1 of the team 1
+
+t1p1_goldspent: gold spent by player 1 of the team 1
+
+t1p1_minionkills: minions killed by the player 1 of the team 1
+
+t1p1_monsterkills: monsters killed by the player 1 of the team 1
+
+t1p1_monsterkillsownjungle: monsters killed their own jungle by the player 1 of the team 1
+
+t1p1_monsterkillsenemyjungle: monsters killed enemy jungle by the player 1 of the team 1
+
+t1p1_cspm: minions killed per minute by plater 1 of the team 1
+
+t1p1_goldat10: gold at minute 10 by the player 1 of the team 1
+
+t1p1pat10: no info
+
+t1p1_csat10: minions killed at minute 10 by the player 1 of the team 1
+
+t1p1_goldat15: gold at minute 15 by the player 1 of the team 1
+
+t1p1pat10: no info
+
+t1p1_csat15: minions killed at minute 10 by the player 1 of the team 1
+
+
+t1p2_position: role of the player 2 of the team 1
+
+    bot: botlaner
+
+t1p2_player: nickname of the player 2 of the team 1
+
+t1p2_team: name of the team of the player 2 of the team 1
+
+t1p2_champion: champion played by the player 2 of the team 1
+
+t1p2_kills: number of kills obtained by the player 2 of the team 1
+
+t1p2_deaths: number od deaths of the player 2 of the team 1
+
+t1p2_assists: number of assits of the player 2 of the team 1
+
+t1p2_firstblood: indicates if player 2 of the team 1 got the first blood of the game
+
+    0: no
+    1: yes
+
+t1p2_firstbloodkill: indicates if player 2 of the team 1 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t1p2_firstbloodassist: indicates if player 2 of the team 1 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t1p2_firstbloodvictim: indicates if player 2 of the team 1 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t1p2_damagetochampions: damage dealt to champions by the player 2 of the team 1
+
+t1p2_dpm: damage dealt per minute by the player 2 of the team 1
+
+t1p2_wardsplaced: wards placed by the player 2 of the team 1
+
+t1p2_wpm: wards placed per minute by the player 2 of the team 1
+
+t1p2_wardskilled: wards killed by the player 2 of the team 1
+
+t1p2_wcpm: wards killed per minute by the player 2 of the team 1
+
+t1p2_controlwardsbought: control wards bought by the player 2 of the team 1
+
+t1p2_visionscore: visionscore of the player 2 of the team 1
+
+t1p2_vspm: visionscore per minute of the player 2 of the team 1
+
+t1p2_totalgold: total gold of the player 2 of the team 1
+
+t1p2_earnedgold: total gold earned by the player 2 of the team 1
+
+t1p2_earned gpm: gold earned per minute by the player 2 of the team 1
+
+t1p2_goldspent: gold spent by player 2 of the team 1
+
+t1p2_minionkills: minions killed by the player 2 of the team 1
+
+t1p2_monsterkills: monsters killed by the player 2 of the team 1
+
+t1p2_monsterkillsownjungle: monsters killed their own jungle by the player 2 of the team 1
+
+t1p2_monsterkillsenemyjungle: monsters killed enemy jungle by the player 2 of the team 1
+
+t1p2_cspm: minions killed per minute by player  of the team 1
+
+t1p2_goldat10: gold at minute 10 by the player 2 of the team 1
+
+t1p2pat10: no info
+
+t1p2_csat10: minions killed at minute 10 by the player 2 of the team 1
+
+t1p2_goldat15: gold at minute 15 by the player 2 of the team 1
+
+t1p2pat10: no info
+
+t1p2_csat15: minions killed at minute 10 by the player 2 of the team 1
+
+t1p3_position: role of the player 3 of the team 1
+
+    mid: midlaner
+
+t1p3_player: nickname of the player 3 of the team 1
+
+t1p3_team: name of the team of the player 3 of the team 1
+
+t1p3_champion: champion played by the player 3 of the team 1
+
+t1p3_kills: number of kills obtained by the player 3 of the team 1
+
+t1p3_deaths: number od deaths of the player 3 of the team 1
+
+t1p3_assists: number of assits of the player 3 of the team 1
+
+t1p3_firstblood: indicates if player 3 of the team 1 got the first blood of the game
+
+    0: no
+    1: yes
+
+t1p3_firstbloodkill: indicates if player 3 of the team 1 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t1p3_firstbloodassist: indicates if player 3 of the team 1 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t1p3_firstbloodvictim: indicates if player 3 of the team 1 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t1p3_damagetochampions: damage dealt to champions by the player 3 of the team 1
+
+t1p3_dpm: damage dealt per minute by the player 3 of the team 1
+
+t1p3_wardsplaced: wards placed by the player 3 of the team 1
+
+t1p3_wpm: wards placed per minute by the player 3 of the team 1
+
+t1p3_wardskilled: wards killed by the player 3 of the team 1
+
+t1p3_wcpm: wards killed per minute by the player 3 of the team 1
+
+t1p3_controlwardsbought: control wards bought by the player 3 of the team 1
+
+t1p3_visionscore: visionscore of the player 3 of the team 1
+
+t1p3_vspm: visionscore per minute of the player 3 of the team 1
+
+t1p3_totalgold: total gold of the player 3 of the team 1
+
+t1p3_earnedgold: total gold earned by the player 3 of the team 1
+
+t1p3_earned gpm: gold earned per minute by the player 3 of the team 1
+
+t1p3_goldspent: gold spent by player 3 of the team 1
+
+t1p3_minionkills: minions killed by the player 3 of the team 1
+
+t1p3_monsterkills: monsters killed by the player 3 of the team 1
+
+t1p3_monsterkillsownjungle: monsters killed their own jungle by the player 3 of the team 1
+
+t1p3_monsterkillsenemyjungle: monsters killed enemy jungle by the player 3 of the team 1
+
+t1p3_cspm: minions killed per minute by player 3 of the team 1
+
+t1p3_goldat10: gold at minute 10 by the player 3 of the team 1
+
+t1p3pat10: no info
+
+t1p3_csat10: minions killed at minute 10 by the player 3 of the team 1
+
+t1p3_goldat15: gold at minute 15 by the player 3 of the team 1
+
+t1p3pat15: no info
+
+t1p3_csat15: minions killed at minute 10 by the player 3 of the team 1
+
+t1p4_position: role of the player 4 of the team 1
+
+    jng: jungler
+
+t1p4_player: nickname of the player 4 of the team 1
+
+t1p4_team: name of the team of the player 4 of the team 1
+
+t1p4_champion: champion played by the player 4 of the team 1
+
+t1p4_kills: number of kills obtained by the player 4 of the team 1
+
+t1p4_deaths: number od deaths of the player 4 of the team 1
+
+t1p4_assists: number of assits of the player 4 of the team 1
+
+t1p4_firstblood: indicates if player 4 of the team 1 got the first blood of the game
+
+    0: no
+    1: yes
+
+t1p4_firstbloodkill: indicates if player 4 of the team 1 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t1p4_firstbloodassist: indicates if player 4 of the team 1 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t1p4_firstbloodvictim: indicates if player 4 of the team 1 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t1p4_damagetochampions: damage dealt to champions by the player 4 of the team 1
+
+t1p4_dpm: damage dealt per minute by the player 4 of the team 1
+
+t1p4_wardsplaced: wards placed by the player 4 of the team 1
+
+t1p4_wpm: wards placed per minute by the player 4 of the team 1
+
+t1p4_wardskilled: wards killed by the player 4 of the team 1
+
+t1p4_wcpm: wards killed per minute by the player 4 of the team 1
+
+t1p4_controlwardsbought: control wards bought by the player 4 of the team 1
+
+t1p4_visionscore: visionscore of the player 4 of the team 1
+
+t1p4_vspm: visionscore per minute of the player 4 of the team 1
+
+t1p4_totalgold: total gold of the player 4 of the team 1
+
+t1p4_earnedgold: total gold earned by the player 4 of the team 1
+
+t1p4_earned gpm: gold earned per minute by the player 4 of the team 1
+
+t1p4_goldspent: gold spent by player 4 of the team 1
+
+t1p4_minionkills: minions killed by the player 4 of the team 1
+
+t1p4_monsterkills: monsters killed by the player 4 of the team 1
+
+t1p4_monsterkillsownjungle: monsters killed their own jungle by the player 4 of the team 1
+
+t1p4_monsterkillsenemyjungle: monsters killed enemy jungle by the player 4 of the team 1
+
+t1p4_cspm: minions killed per minute by player 4 of the team 1
+
+t1p4_goldat10: gold at minute 10 by the player 4 of the team 1
+
+t1p4pat10: no info
+
+t1p4_csat10: minions killed at minute 10 by the player 4 of the team 1
+
+t1p4_goldat15: gold at minute 15 by the player 4 of the team 1
+
+t1p4pat10: no info
+
+t1p4_csat15: minions killed at minute 10 by the player 4 of the team 1
+
+t1p5_position: role of the player 5 of the team 1
+
+    top: toplane
+
+t1p5_player: nickname of the player 5 of the team 1
+
+t1p5_team: name of the team of the player 5 of the team 1
+
+t1p5_champion: champion played by the player 5 of the team 1
+
+t1p5_kills: number of kills obtained by the player 5 of the team 1
+
+t1p5_deaths: number od deaths of the player 5 of the team 1
+
+t1p5_assists: number of assits of the player 5 of the team 1
+
+t1p5_firstblood: indicates if player 5 of the team 1 got the first blood of the game
+
+    0: no
+    1: yes
+
+t1p5_firstbloodkill: indicates if player 5 of the team 1 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t1p5_firstbloodassist: indicates if player 5 of the team 1 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t1p5_firstbloodvictim: indicates if player 5 of the team 1 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t1p5_damagetochampions: damage dealt to champions by the player 5 of the team 1
+
+t1p5_dpm: damage dealt per minute by the player 5 of the team 1
+
+t1p5_wardsplaced: wards placed by the player 5 of the team 1
+
+t1p5_wpm: wards placed per minute by the player 5 of the team 1
+
+t1p5_wardskilled: wards killed by the player 5 of the team 1
+
+t1p5_wcpm: wards killed per minute by the player 5 of the team 1
+
+t1p5_controlwardsbought: control wards bought by the player 5 of the team 1
+
+t1p5_visionscore: visionscore of the player 5 of the team 1
+
+t1p5_vspm: visionscore per minute of the player 5 of the team 1
+
+t1p5_totalgold: total gold of the player 5 of the team 1
+
+t1p5_earnedgold: total gold earned by the player 5 of the team 1
+
+t1p5_earned gpm: gold earned per minute by the player 5 of the team 1
+
+t1p5_goldspent: gold spent by player 5 of the team 1
+
+t1p5_minionkills: minions killed by the player 5 of the team 1
+
+t1p5_monsterkills: monsters killed by the player 5 of the team 1
+
+t1p5_monsterkillsownjungle: monsters killed their own jungle by the player 5 of the team 1
+
+t1p5_monsterkillsenemyjungle: monsters killed enemy jungle by the player 5 of the team 1
+
+t1p5_cspm: minions killed per minute by player 5 of the team 1
+
+t1p5_goldat10: gold at minute 10 by the player 5 of the team 1
+
+t1p5pat10: no info
+
+t1p5_csat10: minions killed at minute 10 by the player 5 of the team 1
+
+t1p5_goldat15: gold at minute 15 by the player 5 of the team 1
+
+t1p5pat10: no info
+
+t1p5_csat15: minions killed at minute 10 by the player 5 of the team 1
+
+t2p1_position: role of the player 1 of the team 2
+
+    sup: support
+
+t2p1_player: nickname of the player 1 of the team 2
+
+t2p1_team: name of the team of the player 1 of the team 2
+
+t2p1_champion: champion played by the player 1 of the team 2
+
+t2p1_kills: number of kills obtained by the plater 1 of the team 2
+
+t2p1_deaths: number od deaths of the player 1 of the team 2
+
+t2p1_assists: number of assits of the player 1 og the team 2
+
+t2p1_firstblood: indicates if player 1 of the team 2 got the first blood of the game
+
+    0: no
+    1: yes
+
+t2p1_firstbloodkill: indicates if player 1 of the team 2 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t2p1_firstbloodassist: indicates if player 1 of the team 2 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t2p1_firstbloodvictim: indicates if player 1 of the team 2 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t2p1_damagetochampions: damage dealt to champions by the player 1 of the team 2
+
+t2p1_dpm: damage dealt per minute by the player 1 of the team 2
+
+t2p1_wardsplaced: wards placed by the player 1 of the team 2
+
+t2p1_wpm: wards placed per minute by the player 1 of the team 2
+
+t2p1_wardskilled: wards killed by the player 1 of the team 2
+
+t2p1_wcpm: wards killed per minute by the player 1 of the team 2
+
+t2p1_controlwardsbought: control wards bought by the player 1 of the team 2
+
+t2p1_visionscore: visionscore of the player 1 of the team 2
+
+t2p1_vspm: visionscore per minute of the player 1 of the team 2
+
+t2p1_totalgold: total gold of the player 1 of the team 2
+
+t2p1_earnedgold: total gold earned by the player 1 of the team 2
+
+t2p1_earned gpm: gold earned per minute by the player 1 of the team 2
+
+t2p1_goldspent: gold spent by player 1 of the team 2
+
+t2p1_minionkills: minions killed by the player 1 of the team 2
+
+t2p1_monsterkills: monsters killed by the player 1 of the team 2
+
+t2p1_monsterkillsownjungle: monsters killed their own jungle by the player 1 of the team 2
+
+t2p1_monsterkillsenemyjungle: monsters killed enemy jungle by the player 1 of the team 2
+
+t2p1_cspm: minions killed per minute by plater 1 of the team 2
+
+t2p1_goldat10: gold at minute 10 by the player 1 of the team 2
+
+t2p1pat10: no info
+
+t2p1_csat10: minions killed at minute 10 by the player 1 of the team 2
+
+t2p1_goldat15: gold at minute 15 by the player 1 of the team 2
+
+t2p1pat10: no info
+
+t2p1_csat15: minions killed at minute 10 by the player 1 of the team 2
+
+
+t2p2_position: role of the player 2 of the team 2
+
+    bot: botlaner
+
+t2p2_player: nickname of the player 2 of the team 2
+
+t2p2_team: name of the team of the player 2 of the team 2
+
+t2p2_champion: champion played by the player 2 of the team 2
+
+t2p2_kills: number of kills obtained by the player 2 of the team 2
+
+t2p2_deaths: number od deaths of the player 2 of the team 2
+
+t2p2_assists: number of assits of the player 2 of the team 2
+
+t2p2_firstblood: indicates if player 2 of the team 2 got the first blood of the game
+
+    0: no
+    1: yes
+
+t2p2_firstbloodkill: indicates if player 2 of the team 2 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t2p2_firstbloodassist: indicates if player 2 of the team 2 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t2p2_firstbloodvictim: indicates if player 2 of the team 2 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t2p2_damagetochampions: damage dealt to champions by the player 2 of the team 2
+
+t2p2_dpm: damage dealt per minute by the player 2 of the team 2
+
+t2p2_wardsplaced: wards placed by the player 2 of the team 2
+
+t2p2_wpm: wards placed per minute by the player 2 of the team 2
+
+t2p2_wardskilled: wards killed by the player 2 of the team 2
+
+t2p2_wcpm: wards killed per minute by the player 2 of the team 2
+
+t2p2_controlwardsbought: control wards bought by the player 2 of the team 2
+
+t2p2_visionscore: visionscore of the player 2 of the team 2
+
+t2p2_vspm: visionscore per minute of the player 2 of the team 2
+
+t2p2_totalgold: total gold of the player 2 of the team 2
+
+t2p2_earnedgold: total gold earned by the player 2 of the team 2
+
+t2p2_earned gpm: gold earned per minute by the player 2 of the team 2
+
+t2p2_goldspent: gold spent by player 2 of the team 2
+
+t2p2_minionkills: minions killed by the player 2 of the team 2
+
+t2p2_monsterkills: monsters killed by the player 2 of the team 2
+
+t2p2_monsterkillsownjungle: monsters killed their own jungle by the player 2 of the team 2
+
+t2p2_monsterkillsenemyjungle: monsters killed enemy jungle by the player 2 of the team 2
+
+t2p2_cspm: minions killed per minute by player  of the team 2
+
+t2p2_goldat10: gold at minute 10 by the player 2 of the team 2
+
+t2p2pat10: no info
+
+t2p2_csat10: minions killed at minute 10 by the player 2 of the team 2
+
+t2p2_goldat15: gold at minute 15 by the player 2 of the team 2
+
+t2p2pat10: no info
+
+t2p2_csat15: minions killed at minute 10 by the player 2 of the team 2
+
+t2p3_position: role of the player 3 of the team 2
+
+    mid: midlaner
+
+t2p3_player: nickname of the player 3 of the team 2
+
+t2p3_team: name of the team of the player 3 of the team 2
+
+t2p3_champion: champion played by the player 3 of the team 2
+
+t2p3_kills: number of kills obtained by the player 3 of the team 2
+
+t2p3_deaths: number od deaths of the player 3 of the team 2
+
+t2p3_assists: number of assits of the player 3 of the team 2
+
+t2p3_firstblood: indicates if player 3 of the team 2 got the first blood of the game
+
+    0: no
+    1: yes
+
+t2p3_firstbloodkill: indicates if player 3 of the team 2 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t2p3_firstbloodassist: indicates if player 3 of the team 2 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t2p3_firstbloodvictim: indicates if player 3 of the team 2 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t2p3_damagetochampions: damage dealt to champions by the player 3 of the team 2
+
+t2p3_dpm: damage dealt per minute by the player 3 of the team 2
+
+t2p3_wardsplaced: wards placed by the player 3 of the team 2
+
+t2p3_wpm: wards placed per minute by the player 3 of the team 2
+
+t2p3_wardskilled: wards killed by the player 3 of the team 2
+
+t2p3_wcpm: wards killed per minute by the player 3 of the team 2
+
+t2p3_controlwardsbought: control wards bought by the player 3 of the team 2
+
+t2p3_visionscore: visionscore of the player 3 of the team 2
+
+t2p3_vspm: visionscore per minute of the player 3 of the team 2
+
+t2p3_totalgold: total gold of the player 3 of the team 2
+
+t2p3_earnedgold: total gold earned by the player 3 of the team 2
+
+t2p3_earned gpm: gold earned per minute by the player 3 of the team 2
+
+t2p3_goldspent: gold spent by player 3 of the team 2
+
+t2p3_minionkills: minions killed by the player 3 of the team 2
+
+t2p3_monsterkills: monsters killed by the player 3 of the team 2
+
+t2p3_monsterkillsownjungle: monsters killed their own jungle by the player 3 of the team 2
+
+t2p3_monsterkillsenemyjungle: monsters killed enemy jungle by the player 3 of the team 2
+
+t2p3_cspm: minions killed per minute by player 3 of the team 2
+
+t2p3_goldat10: gold at minute 10 by the player 3 of the team 2
+
+t2p3pat10: no info
+
+t2p3_csat10: minions killed at minute 10 by the player 3 of the team 2
+
+t2p3_goldat15: gold at minute 15 by the player 3 of the team 2
+
+t2p3pat15: no info
+
+t2p3_csat15: minions killed at minute 10 by the player 3 of the team 2
+
+t2p4_position: role of the player 4 of the team 2
+
+    jng: jungler
+
+t2p4_player: nickname of the player 4 of the team 2
+
+t2p4_team: name of the team of the player 4 of the team 2
+
+t2p4_champion: champion played by the player 4 of the team 2
+
+t2p4_kills: number of kills obtained by the player 4 of the team 2
+
+t2p4_deaths: number od deaths of the player 4 of the team 2
+
+t2p4_assists: number of assits of the player 4 of the team 2
+
+t2p4_firstblood: indicates if player 4 of the team 2 got the first blood of the game
+
+    0: no
+    1: yes
+
+t2p4_firstbloodkill: indicates if player 4 of the team 2 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t2p4_firstbloodassist: indicates if player 4 of the team 2 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t2p4_firstbloodvictim: indicates if player 4 of the team 2 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t2p4_damagetochampions: damage dealt to champions by the player 4 of the team 2
+
+t2p4_dpm: damage dealt per minute by the player 4 of the team 2
+
+t2p4_wardsplaced: wards placed by the player 4 of the team 2
+
+t2p4_wpm: wards placed per minute by the player 4 of the team 2
+
+t2p4_wardskilled: wards killed by the player 4 of the team 2
+
+t2p4_wcpm: wards killed per minute by the player 4 of the team 2
+
+t2p4_controlwardsbought: control wards bought by the player 4 of the team 2
+
+t2p4_visionscore: visionscore of the player 4 of the team 2
+
+t2p4_vspm: visionscore per minute of the player 4 of the team 2
+
+t2p4_totalgold: total gold of the player 4 of the team 2
+
+t2p4_earnedgold: total gold earned by the player 4 of the team 2
+
+t2p4_earned gpm: gold earned per minute by the player 4 of the team 2
+
+t2p4_goldspent: gold spent by player 4 of the team 2
+
+t2p4_minionkills: minions killed by the player 4 of the team 2
+
+t2p4_monsterkills: monsters killed by the player 4 of the team 2
+
+t2p4_monsterkillsownjungle: monsters killed their own jungle by the player 4 of the team 2
+
+t2p4_monsterkillsenemyjungle: monsters killed enemy jungle by the player 4 of the team 2
+
+t2p4_cspm: minions killed per minute by player 4 of the team 2
+
+t2p4_goldat10: gold at minute 10 by the player 4 of the team 2
+
+t2p4pat10: no info
+
+t2p4_csat10: minions killed at minute 10 by the player 4 of the team 2
+
+t2p4_goldat15: gold at minute 15 by the player 4 of the team 2
+
+t2p4pat10: no info
+
+t2p4_csat15: minions killed at minute 10 by the player 4 of the team 2
+
+t2p5_position: role of the player 5 of the team 2
+
+    top: toplane
+
+t2p5_player: nickname of the player 5 of the team 2
+
+t2p5_team: name of the team of the player 5 of the team 2
+
+t2p5_champion: champion played by the player 5 of the team 2
+
+t2p5_kills: number of kills obtained by the player 5 of the team 2
+
+t2p5_deaths: number od deaths of the player 5 of the team 2
+
+t2p5_assists: number of assits of the player 5 of the team 2
+
+t2p5_firstblood: indicates if player 5 of the team 2 got the first blood of the game
+
+    0: no
+    1: yes
+
+t2p5_firstbloodkill: indicates if player 5 of the team 2 got the kill of first blood of the game
+
+    0: no
+    1: yes
+
+t2p5_firstbloodassist: indicates if player 5 of the team 2 assisted the first blood of the game
+
+    0: no
+    1: yes
+
+t2p5_firstbloodvictim: indicates if player 5 of the team 2 was killed in the first blood of the game
+
+    0: no
+    1: yes
+
+t2p5_damagetochampions: damage dealt to champions by the player 5 of the team 2
+
+t2p5_dpm: damage dealt per minute by the player 5 of the team 2
+
+t2p5_wardsplaced: wards placed by the player 5 of the team 2
+
+t2p5_wpm: wards placed per minute by the player 5 of the team 2
+
+t2p5_wardskilled: wards killed by the player 5 of the team 2
+
+t2p5_wcpm: wards killed per minute by the player 5 of the team 2
+
+t2p5_controlwardsbought: control wards bought by the player 5 of the team 2
+
+t2p5_visionscore: visionscore of the player 5 of the team 2
+
+t2p5_vspm: visionscore per minute of the player 5 of the team 2
+
+t2p5_totalgold: total gold of the player 5 of the team 2
+
+t2p5_earnedgold: total gold earned by the player 5 of the team 2
+
+t2p5_earned gpm: gold earned per minute by the player 5 of the team 2
+
+t2p5_goldspent: gold spent by player 5 of the team 2
+
+t2p5_minionkills: minions killed by the player 5 of the team 2
+
+t2p5_monsterkills: monsters killed by the player 5 of the team 2
+
+t2p5_monsterkillsownjungle: monsters killed their own jungle by the player 5 of the team 2
+
+t2p5_monsterkillsenemyjungle: monsters killed enemy jungle by the player 5 of the team 2
+
+t2p5_cspm: minions killed per minute by player 5 of the team 2
+
+t2p5_goldat10: gold at minute 10 by the player 5 of the team 2
+
+t2p5pat20: no info
+
+t2p5_csat10: minions killed at minute 10 by the player 5 of the team 2
+
+t2p5_goldat15: gold at minute 15 by the player 5 of the team 2
+
+t2p5pat10: no info
+
+t2p5_csat15: minions killed at minute 10 by the player 5 of the team 2
