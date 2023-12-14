@@ -22,7 +22,6 @@ def get_team_goldstats(df):
     #at10
     df["blue_goldat10"] = blue_gold_stats[blue_gold_stats.columns[blue_gold_stats.columns.str.contains("at10")]].sum(axis=1)
 
-    df["blue_gold_diffat10"] = df["blue_goldat10"] - df["red_goldat10"]
 
     #at15
     df["blue_goldat15"] = blue_gold_stats[blue_gold_stats.columns[blue_gold_stats.columns.str.contains("at15")]].sum(axis=1)
