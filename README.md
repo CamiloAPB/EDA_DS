@@ -1,0 +1,50 @@
+A lo largo de los últimos años, los deportes electrónicos o eSports han crecido exponencialmente en popularidad. 
+
+Dentro de estos eSports, el rey es el League of legends y en este Analisis de Datos Exploratorio vamos a desgranar sus bases
+para facilitar su comprensión. 
+
+Primero vamos a explicar por encima el funcionamiento del mismo juego. El league of legends es un videojuego del genero MOBA, 
+dos equipos en un campo de batalla tienen que derrotar la base enemiga y proteger la suya. Se juega 5 contra 5 y cada uno juega 
+en un rol o posición específico con funciones concretas como en cualquier deporte. Para llegar a la base enemiga hay que ir derrotando
+objetivos que nos aportan oro dentro del juego que nos sirve para comprar objetos que mejoran nuestras estadísticas y así facilitar 
+el ataque a la base enemiga. El equipo que destruye primero la base enemiga gana la partida.
+
+En cuanto a lo que vamos a analizar, utilizaremos un set de datos recogido en kaggle (https://www.kaggle.com/datasets/fernandorubiogarcia/2020-league-of-legends-competitive-games)
+que contiene los resultados y estadísticas de todos los partidos competitivos del año 2020 hasta octubre de ese año. La información
+detalla de este set de datos está incluida en un archi txt junto al mismo en el repositorio. 
+
+El objetivo de este análisis es explicar el juego a partir de los datos por equipo, por lo tanto en la pre limpieza o limpieza previa
+se eliminan todos los datos sobre jugadores en específico. En relación al equipo, cada equipo tiene su base a cada lado del mapa y ya
+sea por sorteo o elección estos lados son el lado rojo (ese equipo pasa a ser equipo rojo) y lado azul (equipo azul). EL resultado del 
+partido (que lado gana) será nuestro principal objeto de estudio. Esto se debe a que el mapa es semisimetrico y cada lado aporta ventajas
+y desventajas únicas. 
+
+Una vez realizada la limpieza se analizan ciertas variables, que explicare aquí:
+
+Result: variable binaria que indica que equipo ha ganado:
+
+    0: victoria de equipo rojo
+    1: victoria del equipo azul
+
+Las variables únicas de cada equipo vienen precedidas por un prefijo, "red" si son del equipo rojo y "blue" si son del equipo azul
+entre las que se encuentran:
+    
+    Estadísticas de oro: contienen la palabra "gold" y  hacen referencia al oro del equipo, el cual sirve para comprar objetos y 
+    mejorar el personaje
+    
+    Torretas: contienen la palabra "tower" y hacen referencia a las Torretas de un equipo. Estas son estructuras colocadas a lo 
+    largo del mapa y que protegen la base del equipo al que pertenecen. Derribarlas genera oro.
+
+    Heraldos: contiene la palabra "herald", hacen referencia al heraldo de la grita. Este heraldo es un monstruo que aparece por en el mapa
+    y el primer equipo que lo derrote puede utilizarlo para enviarlo a que golpee una torreta enemiga. Salen hasta un máximo de 2 por partida
+
+    Dragones: contiene la palabra "dragon" o "drakes": son mosntruos que aparece por en el mapa y el primer equipo que lo derrote 
+    recibe bonificación específica de estadísticas según el tipo del dragon. 
+
+    Barones: contiene la palabra "baron": son mosntruos que aparecen el mapa y el primer equipo que lo derrote recibe una bonificación
+    temporal de estadísticas enfocadas a derribar torretas. 
+
+También tenemos variables que empiezan por "first" e indican que equipo ha conseguido el primer objetivo en la partida de cada tipo.
+
+Tras la limpieza de los datos, se realizaron análisis gráficos y estadísticos facilitar la comprensión de como se desarrolla una 
+partida competitiva de League of legends a partir de los datos por equipo.
