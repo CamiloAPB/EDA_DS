@@ -1,6 +1,11 @@
-game_id: unique game identifier.
+08_19_2020 is a csv file. It has 2100792 files separated by a ";".
+The shape od this data set is 51049 rows and 408 columns
 
-league: league game belongs
+The description of the columns goes below:
+
+game_id (categorical): unique game identifier.
+
+league (categorical): league game belongs
 
     LDL   LoL development League (China)
     LPL   LoL Pro League (China)
@@ -22,20 +27,48 @@ league: league game belongs
     OCS   Oceania Challenger Series
     MSC   Mid-season cup (China and Korea)
     Riot  Riot Games Event
-    KesPA Korean eSports Assoation
+    KesPA Korean eSports Association
 
-split: split game was played
+split (cardinal/categorical): split game was played.
+
+    Spring
+    Split 1
+    Winter 
+    Opening
+    Split 2
+    Summer
+    Closing
+
+    Spring/Split 1/Winter/Opening are equivalent
+    Split 2/Summer/Closing are equivalent
      
-playoffs: indicates if the game is a playoffs match
+playoffs (binary): indicates if the game is a playoffs match
 
     0: False
     1: True
 
-date: date of the game was played
+date (date): date of the game was played
 
-gamelength: duration of the game
+gamelength (numerical): duration of the game
 
-patch: patch the game was played on
+patch (categorical): patch the game was played on
+
+    9.24
+    10.1
+    10.01
+    10.02
+    10.03
+    10.04
+    10.05
+    10.06
+    10.07
+    10.08
+    10.11
+    10.12
+    10.13
+    10.14
+    10.15
+    10.16
 
 t1_playerid: name of the team 1
 
